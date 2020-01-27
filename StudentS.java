@@ -2,7 +2,7 @@ class StudentS
 {
 static int rno=9;
 static String name="SHRUTHI";
-static String clg="GNIT";
+static String clg="cvr";
 void display()
 {
 System.out.println("student rno:"+rno);
@@ -14,7 +14,7 @@ public static void main(String args[])
 StudentS s1=new StudentS();
 s1.display();
 StudentS s2=new StudentS();
-s2.clg="CVR";
+s2.clg="gnit";
 //s2.display();
 }
 }
